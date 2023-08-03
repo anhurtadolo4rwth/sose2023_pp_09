@@ -1,0 +1,19 @@
+{
+  "name": "sose2023_pp_09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "anhurtadolo",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "dexie": "^3.2.4",
+    "rollup": "^3.27.0",
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.218"
+  }
+}
