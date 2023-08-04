@@ -147,9 +147,14 @@ async function loadSavedIfc() {
         const file = new File([data], 'example');
         const url = URL.createObjectURL(file);
         await viewer.GLTF.loadModel(url);
+        const elements = await viewer.GLTF.getElementById()
     }
 
     loadButton.classList.add('disabled');
+    await viewer.shadowDropper.renderShadow(model.modelID);
+    
+
+
 }
 
 function removeDatabase() {
